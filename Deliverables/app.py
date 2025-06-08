@@ -21,7 +21,6 @@ from webdriver_manager.microsoft import EdgeChromiumDriverManager
 # File to store the path of the driver (so it only installs once)
 EMAIL = os.environ.get("FB_EMAIL") # Set these locally
 PASSWORD = os.environ.get("FB_PASSWORD")
-PASSWORD="hello25"
 
 STOP=False
 driver=None
